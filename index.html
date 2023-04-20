@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FIAP Estágio Desenvolvimento Web</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="imgs/logo fiap.png" alt="Logo da FIAP" />
+        <ul>
+          <a href="#curso">
+            <li>O CURSO</li>
+          </a>
+          <a href="#matriz-curricular">
+            <li>MATRIZ CURRICULAR</li>
+          </a>
+          <a href="#turmas">
+            <li>TURMAS</li>
+          </a>
+        </ul>
+        <button>INSCREVA-SE</button>
+      </nav>
+    </header>
+    <section class="intro" id="header">
+      <div class="intro-txt">
+        <h1>SISTEMAS PARA INTERNET</h1>
+        <p>FULL STACK, E-COMMERCE & DIGITAL TRANSFORMATION</p>
+      </div>
+      <button>INSCREVA-SE</button>
+      <div class="scrolldown">
+        <p>SCROLL DOWN</p>
+      </div>
+      <div class="linhas">
+        <div class="linha2"></div>
+        <div class="linha1"></div>
+      </div>
+    </section>
+    <section class="texto-do-meio" id="curso">
+      <div class="curso-txt">
+        <h1>O CURSO</h1>
+        <p>
+          Estamos na era da indústria 4.0. Tudo é digital, nossas experiências,
+          compras e como consumimos informação. O profissional de sistemas web
+          nunca foi tão requisitado quanto agora, pare para pensar quantos apps
+          você acessou hoje, quantas compras online fez no último mês e quantos
+          sites e redes sociais você entrou hoje mesmo. Vivemos a era do
+          comércio eletrônico e da transformação digital. Gigantes como Amazon e
+          outros marketplaces crescem a cada dia mais. Neste cenário, o mercado
+          se expande e as vagas para desenvolvimento web, desenvolvimento de
+          e-commerce, marketplaces acompanham esse crescimento. É um novo mundo
+          onde o mindset é ser digital.
+        </p>
+      </div>
+      <div class="divisor"></div>
+      <div class="preparar-txt">
+        <h6>VOCÊ VAI SE PREPARAR PARA:</h6>
+        <div class="ajuste-div txtp">
+          <div class="paragrafo"></div>
+          <p>
+            Desenvolvimento Front-end: HTML, CSS, Javascript, HTML 5, Angular,
+            Gulp, Bootstrap, Ruby, React Sass, dentre linguagens, frameworks e
+            bibliotecas.
+          </p>
+        </div>
+        <div class="ajuste-div txtp">
+          <div class="paragrafo"></div>
+          <p>
+            E-Commerce & E-Bussiness: desenvolvimento de marketplaces, domínio
+            na área de comércios eletrônicos, modelos de negócios para
+            e-commerces, jornada do consumidor, divulgação de comércio
+            eletrônico, como empreender na internet e boas práticas de
+            desenvolvimento para e-commerce.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="matriz" id="matriz-curricular">
+      <div class="curso-matriz">
+        <h1>Matriz curricular</h1>
+        <div class="alinhar-div-matriz">
+          <div class="divisor-medio"></div>
+          <h3>2.000 HORAS/AULA</h3>
+        </div>
+      </div>
+      <div class="matriz-anos" id="matriz1">
+        <div class="header-alinhada-matriz-anos">
+          <p class="matrizp">1° ano - 2022</p>
+          <div onclick="controlarMatriz(0)" class="circulo">
+            <div class="mini-linha1"></div>
+            <div class="mini-linha2" id="linha1"></div>
+          </div>
+        </div>
+        <div class="matriz-anos-alinhamento">
+          <div class="linha-matriz-anos"></div>
+          <div class="matriz-anos-texto">
+            <h6>Cyber Security Devops</h6>
+            <p>
+              Os dados de uma empresa valem muito, ainda mais na era do comércio
+              eletrônico, e-commerces, transações bancárias online outros. De
+              acordo com a Forbes, nos próximos anos, 92% das cargas de trabalho
+              serão processadas por centros de dados na nuvem. A maioria dos
+              CEOs e CIOs, no entanto, cita a segurança como um fator primário
+              que impede a adoção total de um modelo de computação baseada na
+              nuvem. Nessa disciplina você aprenderá a projetar, gerenciar e
+              controlar todo o patrimônio da empresa que está ou poderá estar
+              localizado na nuvem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="matriz-anos" id="matriz2">
+        <div class="header-alinhada-matriz-anos">
+          <p class="matrizp">2° ano - 2023</p>
+          <div onclick="controlarMatriz(1)" class="circulo">
+            <div class="mini-linha1"></div>
+            <div class="mini-linha2" id="linha2"></div>
+          </div>
+        </div>
+        <div class="matriz-anos-alinhamento">
+          <div class="linha-matriz-anos"></div>
+          <div class="matriz-anos-texto">
+            <h6>Cyber Security Devops</h6>
+            <p>
+              Os dados de uma empresa valem muito, ainda mais na era do comércio
+              eletrônico, e-commerces, transações bancárias online outros. De
+              acordo com a Forbes, nos próximos anos, 92% das cargas de trabalho
+              serão processadas por centros de dados na nuvem. A maioria dos
+              CEOs e CIOs, no entanto, cita a segurança como um fator primário
+              que impede a adoção total de um modelo de computação baseada na
+              nuvem. Nessa disciplina você aprenderá a projetar, gerenciar e
+              controlar todo o patrimônio da empresa que está ou poderá estar
+              localizado na nuvem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="turmas" id="turmas">
+      <div class="turmas-header">
+        <h1>TURMAS 2022</h1>
+        <div class="linha-turmas"></div>
+      </div>
+      <div class="alinhamento-tabela">
+        <table>
+          <tr class="table-color">
+            <td>CAMPUS</td>
+            <td>DURAÇÃO</td>
+            <td>DIAS</td>
+            <td>HORÁRIO</td>
+            <td>MENSALIDADE</td>
+          </tr>
+          <tr class="turmas-cor">
+            <td class="table-titulo">ACLIMAÇÃO</td>
+            <td>2 anos (2.000 horas)</td>
+            <td class="table-dias">
+              3 dias por semana com aulas presenciais + 2 dias por semana aulas
+              remotas ao vivo + Nano Courses
+            </td>
+            <td class="table-horario">Matutino<br />Das 07h40 às 12h</td>
+            <td class="table-mensalidade">R$ 990,00*</td>
+          </tr>
+          <tr class="turmas-cor">
+            <td class="table-titulo">VILA OLÍMPIA</td>
+            <td>2 anos (2.000 horas)</td>
+            <td class="table-dias">
+              3 dias por semana com aulas presenciais + 2 dias por semana aulas
+              remotas ao vivo + Nano Courses
+            </td>
+            <td class="table-horario">Noturno<br />Das 19h às 23h15</td>
+            <td class="table-mensalidade">R$ 1.295,00*</td>
+          </tr>
+        </table>
+        <p class="turmas-valor">* VALOR PARA 2022 NO PLANO ESTENDIDO.</p>
+      </div>
+      <button class="button-turmas">INSCREVA-SE</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
